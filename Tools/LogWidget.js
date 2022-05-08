@@ -34,7 +34,7 @@ function createWidget(){
    // 对话内容
   for(i=0;i<msgs.length;i++){
     var item=w.addText(msgs[i])
-    item.font=Font.blackRoundedSystemFont(14)
+    item.font=new Font("menlo",14)
     item.textColor=new Color("#ffffff")
     item.minimumScaleFactor=1
     w.addSpacer(3)
