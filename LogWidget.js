@@ -1,5 +1,5 @@
 // CHANGE ME FIRST
-let URL="http://H_O_S_T/get"
+let URL="http://HOST:1140/get"
 
 let msgs=await getMSG()
 let widget=createWidget()

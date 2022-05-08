@@ -12,7 +12,7 @@ pip install .
 ### 1. Server
 Using `Flask` as backend of the server for receiving messages and showing messages.
 
-To activate server: 
+To activate server: default adress is `http://host:1140/get` & `http://host:1140/send`
 ```
 python logServer.py
 ```
@@ -21,7 +21,7 @@ import `LogWidget.js` to Scriptable app, and change `URL` to your server's GET a
 ## Usage on Python codes
 ```python
 import MyLog
-logger=MyLog.Logger(url="http://H_O_S_T/send")
+logger=MyLog.Logger(url="http://HOST:1140/send")
 
 logger.log("hello world!")
 ```
